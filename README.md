@@ -8,9 +8,6 @@ A simple and interactive calculator built using **React.js**. This project demon
 - Clear button to reset calculations.
 - Error handling for invalid inputs or division by zero.
 
-## Demo
-![Calculator App Demo](./screenshot.png)  
-*(Replace this with a link to a live demo or a GIF showcasing the app in action.)*
 
 ## Installation
 
@@ -21,18 +18,7 @@ A simple and interactive calculator built using **React.js**. This project demon
 Project Structure
 css
 Copy code
-react-calculator/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Button.js
-│   │   ├── Display.js
-│   │   └── Calculator.js
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── package.json
-└── README.md
+
 
 Technologies Used
 React.js: A JavaScript library for building user interfaces.

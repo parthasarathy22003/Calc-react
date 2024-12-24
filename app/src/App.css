@@ -1,0 +1,82 @@
+/* Main Container */
+.calculator {
+    width: 320px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #1e293b, #334155);
+    box-shadow: 8px 8px 15px #1a202e, -8px -8px 15px #374151;
+  }
+  
+  /* Display Section */
+  .display input {
+    width: 100%;
+    padding: 10px;
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0f172a;
+    color: #f8fafc;
+    box-shadow: inset 2px 2px 5px #1a202e, inset -2px -2px 5px #374151;
+    outline: none;
+  }
+  
+  /* Button Container */
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Buttons */
+  .buttons button {
+    width: 65px;
+    height: 65px;
+    font-size: 1.4em;
+    margin: 5px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #64748b, #475569);
+    border: none;
+    border-radius: 10px;
+    color: #f1f5f9;
+    box-shadow: 4px 4px 8px #1a202e, -4px -4px 8px #374151;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .buttons button:hover {
+    background: linear-gradient(145deg, #475569, #334155);
+    color: #ffffff;
+    box-shadow: 2px 2px 5px #1a202e, -2px -2px 5px #374151;
+    transform: translateY(-3px);
+  }
+  
+  /* Active Effect */
+  .buttons button:active {
+    background: #1e293b;
+    box-shadow: inset 2px 2px 4px #1a202e, inset -2px -2px 4px #374151;
+    transform: translateY(0);
+  }
+  
+  /* Special Buttons (e.g., Clear, Delete, Equal) */
+  .buttons button:nth-child(4n) { /* Operators */
+    background: linear-gradient(145deg, #f59e0b, #eab308);
+    color: #0f172a;
+  }
+  
+  .buttons button:nth-child(4n):hover {
+    background: linear-gradient(145deg, #eab308, #f59e0b);
+    box-shadow: 2px 2px 5px #1a202e, -2px -2px 5px #374151;
+  }
+  
+  .buttons button:last-child { /* Equal Button */
+    background: linear-gradient(145deg, #22c55e, #16a34a);
+    color: #ffffff;
+  }
+  
+  .buttons button:last-child:hover {
+    background: linear-gradient(145deg, #16a34a, #22c55e);
+  }
+  
